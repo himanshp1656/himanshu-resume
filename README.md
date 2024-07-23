@@ -37,10 +37,3 @@ npm run dev
 ```
 
 Your application should now be running on [http://localhost:3000](http://localhost:3000).
-
-## Step 4: Access the Application
-
-Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
-```
-
-This will render a shell-like UI in Markdown with the necessary commands.

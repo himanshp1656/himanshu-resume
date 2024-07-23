@@ -1,0 +1,100 @@
+{
+    "socialLinks": {
+        "instagram": "http://Instagram.com/himanshp1656",
+        "leetcode": "http://Leetcode.com/himanshp1656",
+        "github": "http://Github.com/himanshp1656",
+        "linkedIn": "http://LinkedIn.com/in/himanshp1656"
+    },
+    "whatsappLink": "https://wa.me/918810446165",
+    "resumeLink": "https://drive.google.com/file/d/1xav7NA_igflg3FxEJepTv3u4ooy7apAd/view?usp=drivesdk ",
+    "projects": [
+        {
+            "name": "Call center manager",
+            "image": "/project1.png",
+            "content": "Developed features for creating tests, tutorials, SOPs, and notifications, which could potentially increase admin efficiency by up to 30%.             Streamlined access to notifications,  utorials, and profile updates for employees, potentially boosting engagement and performance by 25%.",
+            "techStack": [
+                "django",
+                "bootstrap",
+                "html",
+                "css",
+                "javascript"
+            ],
+            "credentials": "{ 'username':'himanshu', 'password':'123' }",
+            "color": "#ff6b08",
+            "link": "http://Github.com/himanshp1656"
+        },
+        {
+            "name": "Call center manager",
+            "image": "/project1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis nesciunt sint dolorum sit odit deserunt, ullam impedit illo vel veniam placeat illum voluptatibus nobis in et, doloremque doloribus rem maxime reprehenderit earum perspiciatis eius consectetur! Beatae officia, accusantium inventore ab illum eos praesentium minima odit pariatur cupiditate error enim.",
+            "techStack": [
+                "django",
+                "bootstrap",
+                "html",
+                "css",
+                "javascript"
+            ],
+            "credentials": "{ 'username':'himanshu', 'password':'123' }",
+            "color": "#ff6b08"
+        }
+    ],
+    "techStack": [
+        "/java.png",
+        "/python.png",
+        "/html.png",
+        "/css.png",
+        "/js.png",
+        "/django.png",
+        "/fastapi.png",
+        "/git.png",
+        "/github.png",
+        "/sql.png"
+    ],
+    "experience": [
+        {
+            "image": "/iitb.png",
+            "companyName": "IIT Bombay",
+            "role": "Software Engineering Intern",
+            "aboutCompany": "",
+            "work": [
+                "Spearheaded the development of a multi-language translation system using Django, boosting translation efficiency for books and PDFs by 35% andexpanding accessibility to over 10,000 users.",
+                "Innovated advanced translation features  Bank of Baroda website, accelerating document processing time by 25%.",
+                "Enhanced the udaanproject.org post-editing tool,resulting in a 20% improvement in user experience ratings through targeted optimizations."
+            ],
+            "duration": "April 2024 – Present"
+        },
+        {
+            "image": "/bot.png",
+            "companyName": "BOTGAUGE",
+            "role": "Backend Developer Intern",
+            "aboutCompany": "",
+            "work": [
+                "During my internship, I leveraged FastAPI with asynchronous Python to develop high-performance APIs. This approach provided a significant speed and efficiency boost compared to the traditional synchronous request handling in Django. Additionally, I implemented Swagger APIs to enhance documentation and testing capabilities."
+            ],
+            "duration": "22 May - 22 August"
+        },
+        {
+            "image": "/unicorn.jpg",
+            "companyName": "DOT UNICORN LOGISTICS PVT LTD",
+            "role": "Junior Developer",
+            "aboutCompany": "",
+            "work": [
+                "Developed and maintained dynamic websites using Django, CSS, HTML, JavaScript, and Python,resulting in a 30% boost in site performance and user engagement.",
+                " Created and deployed user-centric interfaces and Django applications, including a rider app that improved order management efficiency by 20%."
+            ],
+            "duration": "Oct 2023 – April 2024"
+        },
+        {
+            "image": "/unicorn.jpg",
+            "companyName": "DOT UNICORN LOGISTICS PVT LTD",
+            "role": "FullStack Developer Intern",
+            "aboutCompany": "",
+            "work": [
+                "Designed and integrated Django applications with REST APIs, such as Shopify, enhancing functionality and improving user experience by 25%.",
+                "Implemented the CCAvenue payment gateway in Django applications, optimizing walletrecharge processes and reducing transaction times by 40%.",
+                "Advanced backend development by optimizing performance and reliability of applications by 15% through strategic Django solutions."
+            ],
+            "duration": "July 2023 – Oct 2023"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+.insta-text {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.blue-text {
+    @apply bg-gradient-to-br from-[#1FA2FF] via-[#12d8fa] to-[#A6FFCB] text-transparent bg-clip-text
+}
+
+.blue-bg {
+    background: linear-gradient(to bottom right, rgba(31, 162, 255, 0.7), rgba(18, 216, 250, 0.7), rgba(166, 255, 203, 0.7));
+}
+
+.moving-border {
+    border: 4px solid transparent;
+    border-radius: 12px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(var(--angle),
+            #1FA2FF,
+            #A6FFCB) border-box;
+    animation: 8s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #afb2bf;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ccc;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #ff6b08, #cf23cf);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+*:active::-webkit-scrollbar-thumb,
+*:focus::-webkit-scrollbar-thumb,
+*:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+*::-webkit-scrollbar:hover {
+    cursor: pointer;
+}

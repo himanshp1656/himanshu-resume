@@ -9,7 +9,7 @@ import Experiences from './components/Experiences'
 import Footer from './components/Footer'
 
 function App() {
-  const [thememode, setThememode] = useState('light')
+  const [thememode, setThememode] = useState('dark')
 
   useEffect(() => {
     document.querySelector('html').classList.remove("dark", "light")

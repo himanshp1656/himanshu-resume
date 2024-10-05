@@ -20,7 +20,7 @@ function Hero() {
                     <h3 className='blue-text text-2xl md:text-4xl font-bold'>A full stack developer</h3>
 
                     <div className='text-gray-500 py-6 md:w-[70%] text-center'>
-                        I'm currently in my Third year of undergraduate studies, enthusiastically delving into technology and forging my way in the software development arena. Previously, I worked at a product-based startup, gaining valuable experience in the field. Transitioning to a software developer internship at IIT Bombay, I look forward to further honing my skills and contributing to impactful projects.
+                        I'm currently in my Third year of undergraduate studies, enthusiastically delving into technology and forging my way in the software development arena. Previously, I worked at two product-based startup, gaining valuable experience in the field. Transitioning to a software developer internship at IIT Bombay, I look forward to further honing my skills and contributing to impactful projects.
                     </div>
                 </div>
                 <div className="flex gap-4 md:gap-10">

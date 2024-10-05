@@ -6,12 +6,12 @@
         "linkedIn": "http://LinkedIn.com/in/himanshp1656"
     },
     "whatsappLink": "https://wa.me/918810446165",
-    "resumeLink": "https://drive.google.com/file/d/1xav7NA_igflg3FxEJepTv3u4ooy7apAd/view?usp=drivesdk ",
+    "resumeLink": "https://drive.google.com/file/d/1Dgx2SPWN1OfnQaUqj03rFmuYbgWC4sCJ/view?usp=sharing",
     "projects": [
         {
             "name": "Call center manager",
             "image": "/project1.png",
-            "content": "Developed features for creating tests, tutorials, SOPs, and notifications, which could potentially increase admin efficiency by up to 30%.             Streamlined access to notifications,  utorials, and profile updates for employees, potentially boosting engagement and performance by 25%.",
+            "content": "Developed features for creating tests, tutorials, SOPs, and notifications, which could potentially increase admin efficiency by up to 30%.             Streamlined access to notifications,  Tutorials, and profile updates for employees, potentially boosting engagement and performance by 25%.",
             "techStack": [
                 "django",
                 "bootstrap",
@@ -19,14 +19,14 @@
                 "css",
                 "javascript"
             ],
-            "credentials": "{ 'username':'himanshu', 'password':'123' }",
+            "credentials": "{admin: 'username':'himanshu', 'password':'123' staff: 'username':sachin, 'password':'123'}",
             "color": "#ff6b08",
             "link": "http://Github.com/himanshp1656"
         },
         {
-            "name": "Call center manager",
-            "image": "/project1.png",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis nesciunt sint dolorum sit odit deserunt, ullam impedit illo vel veniam placeat illum voluptatibus nobis in et, doloremque doloribus rem maxime reprehenderit earum perspiciatis eius consectetur! Beatae officia, accusantium inventore ab illum eos praesentium minima odit pariatur cupiditate error enim.",
+            "name": "Autotyper",
+            "image": "/autotyper.png",
+            "content": "Autotyper is an application that mimics human typing with an accuracy of 80%. It allows users to simulate typing with optional delays and introduces errors with a specified probability. The application is built with Python and Tkinter, providing an easy-to-use graphical user interface for typing simulation. Used by 200+ users. Among 10+ countries.",
             "techStack": [
                 "django",
                 "bootstrap",
@@ -34,7 +34,6 @@
                 "css",
                 "javascript"
             ],
-            "credentials": "{ 'username':'himanshu', 'password':'123' }",
             "color": "#ff6b08"
         }
     ],
@@ -65,7 +64,7 @@
         },
         {
             "image": "/bot.png",
-            "companyName": "BOTGAUGE",
+            "companyName": "BOTGAUGE, INC.",
             "role": "Backend Developer Intern",
             "aboutCompany": "",
             "work": [
@@ -87,7 +86,7 @@
         {
             "image": "/unicorn.jpg",
             "companyName": "DOT UNICORN LOGISTICS PVT LTD",
-            "role": "FullStack Developer Intern",
+            "role": "FullStack Intern",
             "aboutCompany": "",
             "work": [
                 "Designed and integrated Django applications with REST APIs, such as Shopify, enhancing functionality and improving user experience by 25%.",

@@ -28,6 +28,7 @@ function ProjectCard({ projectNo, projectImage, projectVideo, techStack, content
                                     onClick={(e) => {
                                         e.stopPropagation()
                                         const vid = e.target
+                                        vid.currentTime = 0
                                         if (vid.requestFullscreen) vid.requestFullscreen()
                                         else if (vid.webkitRequestFullscreen) vid.webkitRequestFullscreen()
                                         vid.muted = false

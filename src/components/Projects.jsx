@@ -16,6 +16,7 @@ function Projects() {
                             projectNo={index + 1}
                             color={project.color}
                             projectImage={project.image}
+                            projectVideo={project.video}
                             content={project.content}
                             techStack={project.techStack}
                             loginCredentials={project.credentials}

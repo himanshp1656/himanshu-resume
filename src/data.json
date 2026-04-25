@@ -6,22 +6,21 @@
         "linkedIn": "http://LinkedIn.com/in/himanshp1656"
     },
     "whatsappLink": "https://wa.me/918810446165",
-    "resumeLink": "https://drive.google.com/file/d/1Dgx2SPWN1OfnQaUqj03rFmuYbgWC4sCJ/view?usp=sharing",
+    "resumeLink": "https://drive.google.com/file/d/1GgDTT4WxQm3ISedcEix9TIJ6eo5PfOY7/view?usp=drivesdk",
     "projects": [
         {
-            "name": "Call center manager",
-            "image": "/project1.png",
-            "content": "Developed features for creating tests, tutorials, SOPs, and notifications, which could potentially increase admin efficiency by up to 30%.             Streamlined access to notifications,  Tutorials, and profile updates for employees, potentially boosting engagement and performance by 25%.",
+            "name": "Code Lineage",
+            "video": "/code-lineage.mp4",
+            "content": "Crawls GitHub repositories to generate function and class level code lineage, visualizing dependencies and call graphs across the codebase. Supports running test cases, mocking functions, and comparing branches to help developers understand the impact of changes before merging.",
             "techStack": [
-                "django",
-                "bootstrap",
-                "html",
-                "css",
-                "javascript"
+                "python",
+                "fastapi",
+                "react",
+                "temporal",
+                "ec2"
             ],
-            "credentials": "{admin: 'username':'himanshu', 'password':'123' staff: 'username':sachin, 'password':'123'}",
-            "color": "#ff6b08",
-            "link": "http://Github.com/himanshp1656"
+            "color": "#f7d748",
+            "link": "https://code-crawler-frontend.netlify.app"
         },
         {
             "name": "Autotyper",
@@ -51,6 +50,20 @@
     ],
     "experience": [
         {
+            "image": "/atlan-blue.svg",
+            "companyName": "Atlan",
+            "badge": "Raised $105M Series C",
+            "role": "Software Engineer",
+            "aboutCompany": "",
+            "work": [
+                "Building ETL pipelines for extraction, transformation, loading, and lineage creation across data sources including Postgres, MySQL, OracleDB, and Trino.",
+                "Integrating BI tools such as Salesforce, Sigma, Looker, and Tableau for enterprise customers including HP, JPMorgan, Mastercard, Nasdaq, and CME.",
+                "Designing and creating pipelines using Argo Workflows and Temporal, orchestrating complex data workflows across distributed systems.",
+                "Working across several microservices to deliver scalable and maintainable data infrastructure."
+            ],
+            "duration": "2025 – Present"
+        },
+        {
             "image": "/iitb.png",
             "companyName": "IIT Bombay",
             "role": "Software Engineering Intern",
@@ -60,40 +73,34 @@
                 "Innovated advanced translation features  Bank of Baroda website, accelerating document processing time by 25%.",
                 "Enhanced the udaanproject.org post-editing tool,resulting in a 20% improvement in user experience ratings through targeted optimizations."
             ],
-            "duration": "April 2024 – Present"
+            "duration": "April 2024 – Jan 2025"
         },
         {
             "image": "/bot.png",
             "companyName": "BOTGAUGE, INC.",
+            "badge": "Raised $2M",
             "role": "Backend Developer Intern",
             "aboutCompany": "",
             "work": [
-                "During my internship, I leveraged FastAPI with asynchronous Python to develop high-performance APIs. This approach provided a significant speed and efficiency boost compared to the traditional synchronous request handling in Django. Additionally, I implemented Swagger APIs to enhance documentation and testing capabilities."
+                "Joined as part of the early team, implementing several features from scratch and contributing directly to the core product.",
+                "Architected and led the migration of test case storage from PostgreSQL to MongoDB, improving flexibility and query performance for nested JSON structures.",
+                "Built high-performance APIs using FastAPI with asynchronous Python, delivering significant speed gains over traditional synchronous Django request handling.",
+                "Implemented Swagger API documentation to streamline testing and developer onboarding."
             ],
             "duration": "22 May - 22 August"
         },
         {
             "image": "/unicorn.jpg",
             "companyName": "DOT UNICORN LOGISTICS PVT LTD",
-            "role": "Junior Developer",
+            "role": "Full Stack Developer Intern",
             "aboutCompany": "",
             "work": [
-                "Developed and maintained dynamic websites using Django, CSS, HTML, JavaScript, and Python,resulting in a 30% boost in site performance and user engagement.",
-                " Created and deployed user-centric interfaces and Django applications, including a rider app that improved order management efficiency by 20%."
+                "Designed and integrated Django applications with REST APIs such as Shopify, enhancing functionality and improving user experience by 25%.",
+                "Implemented the CCAvenue payment gateway, optimizing wallet recharge processes and reducing transaction times by 40%.",
+                "Developed and maintained dynamic websites using Django, CSS, HTML, JavaScript, and Python, resulting in a 30% boost in site performance and user engagement.",
+                "Created and deployed user-centric interfaces and Django applications, including a rider app that improved order management efficiency by 20%."
             ],
-            "duration": "Oct 2023 – April 2024"
-        },
-        {
-            "image": "/unicorn.jpg",
-            "companyName": "DOT UNICORN LOGISTICS PVT LTD",
-            "role": "FullStack Intern",
-            "aboutCompany": "",
-            "work": [
-                "Designed and integrated Django applications with REST APIs, such as Shopify, enhancing functionality and improving user experience by 25%.",
-                "Implemented the CCAvenue payment gateway in Django applications, optimizing walletrecharge processes and reducing transaction times by 40%.",
-                "Advanced backend development by optimizing performance and reliability of applications by 15% through strategic Django solutions."
-            ],
-            "duration": "July 2023 – Oct 2023"
+            "duration": "July 2023 – April 2024"
         }
     ]
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Chips from './Chips'
 
-function ProjectCard({ projectNo, projectImage, techStack, content, loginCredentials, projectName, color, link }) {
+function ProjectCard({ projectNo, projectImage, projectVideo, techStack, content, loginCredentials, projectName, color, link }) {
     const [displayButton, setDisplayButton] = useState(false)
     const [isOdd, setisOdd] = useState(projectNo % 2 == 1)
     return (
@@ -17,7 +17,33 @@ function ProjectCard({ projectNo, projectImage, techStack, content, loginCredent
                             onClick={() => window.location.href = link}
                         >
                             <img src="/frame.png" alt="frame" />
-                            <img src={projectImage} alt="project" />
+                            {projectVideo ? (
+                                <video
+                                    src={projectVideo}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                    className="w-full cursor-pointer"
+                                    onClick={(e) => {
+                                        e.stopPropagation()
+                                        const vid = e.target
+                                        if (vid.requestFullscreen) vid.requestFullscreen()
+                                        else if (vid.webkitRequestFullscreen) vid.webkitRequestFullscreen()
+                                        vid.muted = false
+                                    }}
+                                    onFullscreenChange={(e) => {
+                                        if (!document.fullscreenElement) e.target.muted = true
+                                    }}
+                                    ref={(vid) => {
+                                        if (!vid) return
+                                        const handler = () => { if (!document.fullscreenElement) vid.muted = true }
+                                        document.addEventListener('fullscreenchange', handler)
+                                    }}
+                                />
+                            ) : (
+                                <img src={projectImage} alt="project" />
+                            )}
                         </div>
                     </div>
                     <div className={`hidden lg:block lg:absolute ${isOdd ? "right-0" : "left-0"} top-[50%] w-[50%] h-1 z-0 `} style={{ backgroundColor: color }}></div>
@@ -28,7 +54,7 @@ function ProjectCard({ projectNo, projectImage, techStack, content, loginCredent
                 <div className={`${isOdd ? "lg:border-l" : "lg:border-r"} border-[#f7d748] lg:w-[50%] flex ${isOdd ? "justify-end" : "justify-start"}`}>
                     <div className="lg:w-[90%] text-gray-500 lg:py-20">
                         <h3 className='text-xl lg:text-3xl insta-text font-bold pb-2'>{projectName}</h3>
-                        <p className='py-4'>{content}</p>
+                        <p className='py-4'>{content}{link && <> <a href={link} target="_blank" rel="noopener noreferrer" className='text-blue-500 underline hover:text-blue-400'>{link}</a></>}</p>
                         <div className="flex gap-4 flex-wrap">
                             {techStack.map((tech, index) => (
                                 <Chips key={index} techStackName={tech} />

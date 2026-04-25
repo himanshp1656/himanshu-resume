@@ -15,9 +15,16 @@ function Experiences({ data }) {
                             <div className="flex justify-between items-center py-4 px-5 flex-wrap">
                                 <div className="flex gap-4 items-center">
                                     <img src={item.image} alt="" className='h-16' />
-                                    <h2 className='text-xl font-semibold'>
-                                        {item.companyName}
-                                    </h2>
+                                    <div className='flex flex-col gap-1'>
+                                        <h2 className='text-xl font-semibold'>
+                                            {item.companyName}
+                                        </h2>
+                                        {item.badge && (
+                                            <span className='text-xs font-medium px-2 py-0.5 rounded-full bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300 w-fit'>
+                                                {item.badge}
+                                            </span>
+                                        )}
+                                    </div>
                                 </div>
                                 <div className="text-xl">
                                     {item.role}
